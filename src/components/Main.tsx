@@ -3,7 +3,7 @@ import Card from './Card';
 import IntroCard from './IntroCard';
 import OutroCard from './OutroCard';
 
-function Main(props) {
+function Main() {
   const data = [
     {
       id: 1,

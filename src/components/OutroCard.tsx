@@ -1,6 +1,6 @@
 import React from 'react';
 
-function OutroCard(props) {
+function OutroCard() {
   return (
     <div>
       <div className='md:flex md:h-72 px-8 py-8 md:mb-8 mx-4 my-2 bg-white rounded-r rounded-l shadow-md'>

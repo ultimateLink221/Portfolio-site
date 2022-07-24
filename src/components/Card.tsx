@@ -1,6 +1,14 @@
 import React from 'react';
 
-function Card({ title, text, webLink, gitLink, img }) {
+interface CardProps {
+  title: string;
+  text: string;
+  webLink: string;
+  gitLink: string;
+  img: string;
+}
+
+function Card({ title, text, webLink, gitLink, img }: CardProps) {
   return (
     <div className='mx-4 my-8 lg:my-2 bg-white rounded shadow-md'>
       <div className='h-80'>

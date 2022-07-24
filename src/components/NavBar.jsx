@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import RKResume from '../assets/Raafay_Khan_Resume.PDF'
 
-function NavBar(props) {
+function NavBar() {
   const nav = useNavigate();
 
   const [mainNavItem, setMainNavItem] = useState('text-xl hidden md:inline font-bold md:ml-2 rounded px-4 py-2');

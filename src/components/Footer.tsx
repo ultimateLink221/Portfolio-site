@@ -1,11 +1,11 @@
 import React from 'react';
 
-function Footer(props) {
+function Footer() {
   const navigation = [
     {
       name: 'GitHub',
       href: 'https://github.com/ultimateLink221',
-      icon: (props) => (
+      icon: (props: any) => (
         <svg fill="currentColor" viewBox="0 0 24 24" {...props}>
           <path
             fillRule="evenodd"
@@ -18,7 +18,7 @@ function Footer(props) {
     {
       name: 'LinkedIn',
       href: 'https://www.linkedin.com/in/raafay-khan-212514244/',
-      icon: (props) => (
+      icon: (props: any) => (
         <svg fill="currentColor" viewBox="0 0 24 24" {...props}>
           <path
             fillRule="evenodd"
